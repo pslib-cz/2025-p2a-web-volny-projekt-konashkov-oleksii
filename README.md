@@ -10,7 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-Digitální platforma spojující e-shop s výběrovou kávou a čajem s imerzivním vyprávěním příběhů.
+Web spojující e-shop s výběrovou kávou a čajem s imerzivním vyprávěním příběhů.
 * **Kurátorský výběr:** Craftové produkty s jasným původem (direct trade).
 * **Storytelling:** Interaktivní cesta od farmy až po šálek (příběhy, terroir, proces).
 * **Estetika:** Minimalistický design zaměřený na rituál a detail.
@@ -43,10 +43,10 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`Doplň odkaz`](#) |
-| Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
-| Fotografie / média | [`Doplň odkaz`](#) |
+| GitHub Pages (live) | [`Web náhled`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-konashkov-oleksii/) |
+| Grafický manuál (Figma / Canva) | [`Moodboard - Figma`](https://www.figma.com/design/s0Wtpv2eHVKTZ7715GCg1t/Konashkov-Moodboard-Voln%C3%BD-Projekt?node-id=0-1&t=BeyE8yKbt29pHYzV-1) |
+| Grafický návrh webu (Figma) | [`Návrh - Figma`](https://www.figma.com/design/2agXC75izBRF4yRmpf2xqa/Konashkov-N%C3%A1vrh-voln%C3%BD-projekt?node-id=0-1&t=iiBRA4k6iZk0XIba-1) |
+| Fotografie / média | [`Media - OneDrive`](https://pslib-my.sharepoint.com/:f:/g/personal/oleksii_konash_024_pslib_cz/IgDRgK0TkbUiTIlQRWLSS8hoAViZlyHN5Oh3vhrjTnoStHA?e=Qzt6Ad) |
 
 ---
 
