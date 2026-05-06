@@ -44,8 +44,8 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 | Výstup | Odkaz |
 |---|---|
 | GitHub Pages (live) | [`Web náhled`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-konashkov-oleksii/) |
-| Grafický manuál (Figma / Canva) | [`Moodboard - Figma`](https://www.figma.com/design/s0Wtpv2eHVKTZ7715GCg1t/Konashkov-Moodboard-Voln%C3%BD-Projekt?node-id=0-1&t=BeyE8yKbt29pHYzV-1) |
-| Grafický návrh webu (Figma) | [`Návrh - Figma`](https://www.figma.com/design/2agXC75izBRF4yRmpf2xqa/Konashkov-N%C3%A1vrh-voln%C3%BD-projekt?node-id=0-1&t=iiBRA4k6iZk0XIba-1) |
+| Grafický manuál +  Grafický návrh webu(Figma) | [`Moodboard - Figma`](https://www.figma.com/design/s0Wtpv2eHVKTZ7715GCg1t/Konashkov-Moodboard-Voln%C3%BD-Projekt?node-id=0-1&t=BeyE8yKbt29pHYzV-1) |
+| Sitemap a Obsahová mapa (Figma) | [`Sitemap - Figma`]([https://www.figma.com/design/2agXC75izBRF4yRmpf2xqa/Konashkov-N%C3%A1vrh-voln%C3%BD-projekt?node-id=0-1&t=iiBRA4k6iZk0XIba-1](https://www.figma.com/board/bOZeNMWV4P8qRYJdzl37Kx/Konashkov_Voln%C3%BD-Projekt--Sitemap-a-Obsahov%C3%A1-mapa?node-id=0-1&t=vGIKjr37NrrPkgBk-1)) |
 | Fotografie / média | [`Media - OneDrive`](https://pslib-my.sharepoint.com/:f:/g/personal/oleksii_konash_024_pslib_cz/IgDRgK0TkbUiTIlQRWLSS8hoAViZlyHN5Oh3vhrjTnoStHA?e=Qzt6Ad) |
 
 ---
