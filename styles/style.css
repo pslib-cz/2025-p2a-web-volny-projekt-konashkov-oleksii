@@ -1,0 +1,8 @@
+@layer reset, init, fonts, layout, design;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+@import './reset.css' layer(reset);
+@import './init.css' layer(init);
+@import './layout.css' layer(layout);
+@import './design.css' layer(design);

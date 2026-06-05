@@ -1,0 +1,21 @@
+:root{
+--solid--dark-brown: #5C3323;
+--solid--orange: #B36C4F;
+--solid--golden-brown: #CCAA66;
+--solid--dark-green: #3D5142;
+--solid--light-green: #6A8D73;
+--solid--white: #F8F6F2;
+--solid--silver: #EBEBEB;
+--solid--black: #1A1A1B;
+--solid--dark-gray: #2A2523;
+--solid---error-red: #E75050;
+--solid--light-grey: #7D7774;    
+}
+
+*{
+    font-family: 'Lexend';
+}
+
+body{
+    background-color: var(--solid--silver);
+}

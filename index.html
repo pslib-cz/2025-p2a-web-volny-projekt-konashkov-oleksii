@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terroir - Home</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/svg+xml" href="/media/icons/icon__logo--no-text.svg">
+</head>
+<body>
+    <header class="navbar-wrapper">
+        <div class="navbar">
+            <a href="./index.html" class="logo" aria-label="Terroir Home">
+                <svg class="icon" width="80" height="40">
+                    <use href="./media/icons/icon__logo--text.svg"></use>
+                </svg>
+            </a>
+            <nav class="nav-links" aria-label="Hlavní navigace">
+                <menu>
+                    <li><a href="#" aria-current="page">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Brew Lab</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </menu>
+            </nav>
+            <div class="nav-actions" role="group" aria-label="Akce v záhlaví">
+                <a class="icon-btn" href="#">
+                    <svg class="icon" width="24" height="24" aria-label="Účet">
+                        <use href="./media/icons/icon__profile.svg"></use>
+                    </svg>
+                </a>
+                <a class="icon-btn" href="#" aria-label="Košík">
+                    <svg class="icon" width="24" height="24">
+                        <use href="./media/icons/icon__cart.svg"></use>
+                    </svg>
+                </a>
+                <a class="hamburger" href="#">
+                    <svg class="icon" width="24" height="24" aria-label="Otevřít menu">
+                        <use href="./media/icons/icon__hamburger--closed.svg"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <nav class="mobile-dropdown" id="mobile-menu">
+                <menu class="mobile-dropdown__menu">
+                    <li class="mobile-dropdown__element"><a href="#" aria-current="page">Home</a></li>
+                    <li class="mobile-dropdown__element"><a href="#">Shop</a></li>
+                    <li class="mobile-dropdown__element"><a href="#">About Us</a></li>
+                    <li class="mobile-dropdown__element"><a href="#">Brew Lab</a></li>
+                    <li class="mobile-dropdown__element"><a href="#">Contact Us</a></li>
+                </menu>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="heading">Ritual of Taste. <span class="breakline">From Farm to Cup.</span></h1>
+        <p class="hero__text">Kurátorský výběr zrn a lístků s příběhem, který stojí za to vyprávět.</p>
+        <a href="#" class="btn btn--light">Objevit kolekci <svg width="24" height="24" class="icon"><use href="./media/icons/icon__arrow-right.svg"></use></svg></a>
+    </section>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
