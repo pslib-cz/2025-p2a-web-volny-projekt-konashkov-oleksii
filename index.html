@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terroir - Home</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="icon" type="image/svg+xml" href="/media/icons/icon__logo--no-text.svg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />    <link rel="icon" type="image/svg+xml" href="/media/icons/icon__logo--no-text.svg">
 </head>
 
 <body>
@@ -70,13 +70,194 @@
     </header>
 
     <section class="hero">
-        <h1 class="heading">Ritual of Taste. <span class="breakline">From Farm to Cup.</span></h1>
-        <p class="hero__text">Kurátorský výběr zrn a lístků s příběhem, který stojí za to vyprávět.</p>
-        <a href="#" class="btn btn--light">Objevit kolekci <svg width="24" height="24" class="icon">
-                <use href="./media/icons/icon__arrow-right.svg"></use>
-            </svg></a>
+        <picture>
+            <source media="(min-width: 768px)" srcset="./media/hero__bg/hero__desktop.webp" type="image/webp">
+
+            <source media="(min-width: 768px)" srcset="./media/hero__bg/hero__desktop.png" type="image/png">
+
+            <source srcset="./media/hero__bg/hero__mobile.webp" type="image/webp">
+
+            <img src="./media/hero__bg/hero__mobile.png" alt="Background image as a cup of coffe being filtered"
+                class="bg-image">
+        </picture>
+        <div class="hero__content">
+            <h1 class="heading">Ritual of Taste. <span class="breakline">From Farm to Cup.</span></h1>
+            <p class="hero__text">Kurátorský výběr zrn a lístků s příběhem, který stojí za to vyprávět.</p>
+            <a href="#" class="btn btn--light">Objevit kolekci <svg width="24" height="24" class="icon">
+                    <use href="./media/icons/icon__arrow-right.svg"></use>
+                </svg></a>
+        </div>
     </section>
 
+
+  <section class="swiper">
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide swiper__craft">
+        <!-- <picture>
+            <source src="./media/fast-choise/craft.webp" type="image/webp">
+            <img src="./media/fast-choise/craft.png" width="376" height="327" alt="Craft coffe">
+        </picture> -->
+        <h3 class="fast-choise__title">Pure & Floral</h3>
+        <p class="fast-choise__subtitle">Alternative Brews</p>
+        <p class="fast-choise__text">Světle pražená jednodruhová zrna s jasnou aciditou, která rozvinou komplexní chuť ovoce a květin.</p>
+    </div>
+    <div class="swiper-slide swiper__tea">Slide 2</div>
+    <div class="swiper-slide swiper__latte">Slide 3</div>
+  </div>
+  <div class="swiper-pagination"></div>
+    </section>
+
+
+    <section class="product-list">
+        <article class="product__card">
+            <header class="product__header">
+                <p class="product__tag tag--golden">novinka</p>
+                <a href="#" class="btn btn--outline btn--favorite">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                        d="M16.5 3C14.76 3 13.09 3.81 12 5.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5C2 12.28 5.4 15.36 10.55 20.04L12 21.35L13.45 20.03C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3ZM12.1 18.55L12 18.65L11.9 18.55C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5C9.04 5 10.54 5.99 11.07 7.36H12.94C13.46 5.99 14.96 5 16.5 5C18.5 5 20 6.5 20 8.5C20 11.39 16.86 14.24 12.1 18.55Z"
+                        fill="currentColor" />
+                    </svg>
+                </a>
+                
+                <picture>
+                    <source src="./media/" type="image/webp">
+                    <img src="./media/product/Product__image.png" alt="Coffe" class="product__img">
+                </picture>
+            </header>
+            <div class="product__body">
+                <p class="product-card__country">South Africa</p>
+                <p class="product-card__title">Gopro hero 7 (with receipt)</p>
+                <p class="product-card__tastes">Blackcurrant • Rhubarb • Honey</p>
+                <div class="product-card__stars">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                </div>
+            </div>
+            <footer class="product__footer">
+                <p class="product__price">14,90&nbsp;KČ</p>
+                <a href="" class="btn btn--outline">
+                    <svg width="14" height="14">
+                        <use href="./media/icons/icon__add.svg"></use>
+                    </svg>
+                </a>
+            </footer>
+        </article>
+             <article class="product__card">
+            <header class="product__header">
+                <p class="product__tag tag--lime">Energizing</p>
+                <a href="#" class="btn btn--outline btn--favorite">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                        d="M16.5 3C14.76 3 13.09 3.81 12 5.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5C2 12.28 5.4 15.36 10.55 20.04L12 21.35L13.45 20.03C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3ZM12.1 18.55L12 18.65L11.9 18.55C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5C9.04 5 10.54 5.99 11.07 7.36H12.94C13.46 5.99 14.96 5 16.5 5C18.5 5 20 6.5 20 8.5C20 11.39 16.86 14.24 12.1 18.55Z"
+                        fill="currentColor" />
+                    </svg>
+                </a>
+                
+                <picture>
+                    <source src="./media/" type="image/webp">
+                    <img src="./media/product/Product__image2.png" alt="Coffe" class="product__img">
+                </picture>
+            </header>
+            <div class="product__body">
+                <p class="product-card__country">Åland Islands</p>
+                <p class="product-card__title">Playstation 4 Limited Edition (with games)</p>
+                <p class="product-card__tastes">Dark Chocolate • Roasted Almond • Caramel• Roasted Almond • Caramel y</p>
+                <div class="product-card__stars">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                </div>
+            </div>
+            <footer class="product__footer">
+                <p class="product__price">14,90&nbsp;KČ</p>
+                <a href="" class="btn btn--outline">
+                    <svg width="14" height="14">
+                        <use href="./media/icons/icon__add.svg"></use>
+                    </svg>
+                </a>
+            </footer>
+        </article>
+             <article class="product__card">
+            <header class="product__header">
+                <p class="product__tag tag--red">novinka</p>
+                <a href="#" class="btn btn--outline btn--favorite">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                        d="M16.5 3C14.76 3 13.09 3.81 12 5.09C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.42 2 8.5C2 12.28 5.4 15.36 10.55 20.04L12 21.35L13.45 20.03C18.6 15.36 22 12.28 22 8.5C22 5.42 19.58 3 16.5 3ZM12.1 18.55L12 18.65L11.9 18.55C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5C9.04 5 10.54 5.99 11.07 7.36H12.94C13.46 5.99 14.96 5 16.5 5C18.5 5 20 6.5 20 8.5C20 11.39 16.86 14.24 12.1 18.55Z"
+                        fill="currentColor" />
+                    </svg>
+                </a>
+                
+                <picture>
+                    <source src="./media/" type="image/webp">
+                    <img src="./media/product/Product__image3.png" alt="Coffe" class="product__img">
+                </picture>
+            </header>
+            <div class="product__body">
+                <p class="product-card__country">Central African Republic</p>
+                <p class="product-card__title">Heimer Miller Sofa (Mint Condition)</p>
+                <p class="product-card__tastes">Orchid • Lilac • Milky Aftertaste</p>
+                <div class="product-card__stars">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                    <img src="./media/icons/icon__star--filled.svg" alt="" height="16" width="16">
+                </div>
+            </div>
+            <footer class="product__footer">
+                <p class="product__price">14,90&nbsp;KČ</p>
+                <a href="" class="btn btn--outline">
+                    <svg width="14" height="14">
+                        <use href="./media/icons/icon__add.svg"></use>
+                    </svg>
+                </a>
+            </footer>
+        </article>
+    </section>
+    <section class="hodnoty">
+        <h2 class="section--title">NÁŠE Hodnoty</h2>
+        <div class="hodnoty__wrap">
+            <div class="hodnoty__item">
+                <img class="hodnoty__icon" width='48' height='48'
+                    src="./media/icons/Hodnoty/material-symbols-light--handshake-outline 1.svg">
+                <h3 class="hodnoty__subheader">Direct Connection</h3>
+                <p class="hodmoty__text">Nakupujeme přímo od farmářů. Známe jejich jména, jejich půdu i jejich příběhy.
+                </p>
+            </div>
+            <div class="hodnoty__item">
+                <img class="hodnoty__icon" width='48' height='48'
+                    src="./media/icons/Hodnoty/iconoir--precision-tool 1.svg">
+                <h3 class="hodnoty__subheader">Technical Precision</h3>
+                <p class="hodmoty__text">Každá šarže prochází senzorickým testem. Garantujeme datum sklizně i pražení.
+                </p>
+            </div>
+            <div class="hodnoty__item">
+                <img class="hodnoty__icon" width='48' height='48'
+                    src="./media/icons/Hodnoty/arcticons--mind-space 1.svg">
+                <h3 class="hodnoty__subheader">Conscious Ritual</h3>
+                <p class="hodmoty__text">Věříme v udržitelnost. Naše obaly jsou kompostovatelné, náš přístup je upřímný.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2 class="section--title">The Journal Club</h2>
+        <p class="newsletter__text">Žádný spam. Jen příběhy z farem, nové sběry a návody, jak si připravit lepší šálek.
+        </p>
+        <form action="#" class="form newsletter__form" method="POST">
+            <input type="text" class="newsletter__input input__text" placeholder="E-mail">
+            <button type="submit" class="btn btn--dark">Přidat se</button></form>
+    </section>
+    
     <footer class="footer">
         <div class="footer__content">
             <div class="footer__layout">
@@ -142,10 +323,10 @@
                 </div>
 
                 <div class="footer__newsletter">
-                    <form class="footer__form" action="#" method="POST">
-                        <input type="email" class="footer__input" placeholder="E-mail" required
+                    <form class="form" action="#" method="POST">
+                        <input type="email" class="input__text footer__input" placeholder="E-mail" required
                             aria-label="Vaše e-mailová adresa">
-                        <button type="submit" class="footer__btn">Odebírat</button>
+                        <button type="submit" class="btn footer__btn">Odebírat</button>
                     </form>
                 </div>
 
@@ -244,6 +425,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 

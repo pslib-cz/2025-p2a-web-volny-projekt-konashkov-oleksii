@@ -1,3 +1,15 @@
+const swiper = new Swiper('.swiper', { 
+  slidesPerView: 1.5, 
+  spaceBetween: 32, 
+  slidesPerGroupSkip: 1, 
+  slidesOffsetBefore: 16, 
+  initialSlide: 1, 
+  centeredSlides: true, 
+  pagination: { 
+    el: ".swiper-pagination",
+    clickable: true,} 
+});
+
 document.addEventListener('DOMContentLoaded', () => {
             const hamburger = document.querySelector('.hamburger');
             const mobileMenu = document.getElementById('mobile-menu');

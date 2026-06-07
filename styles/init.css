@@ -10,6 +10,7 @@
 --solid--dark-gray: #2A2523;
 --solid---error-red: #E75050;
 --solid--light-grey: #7D7774;    
+--swiper-theme-color: var(var(--solid--light-grey));
 }
 
 *{
