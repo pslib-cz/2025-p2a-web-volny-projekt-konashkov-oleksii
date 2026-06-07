@@ -332,8 +332,8 @@ font-size: 1rem;
     position: relative;
     display: grid;
     grid-template-areas: 
-    "product__header",
-    "product__body",
+    "product__header"
+    "product__body" 
     "product__footer";
     padding: 1em;
     background-color: var(--solid--white);
@@ -579,7 +579,7 @@ top: -1em;
     bottom: -1em;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 920px) {
     .footer__nav-area--mobile{
         display: none;
     }
@@ -662,5 +662,105 @@ top: -1em;
 
     .footer__bottom::before {
         top: 0; 
+    }
+}
+
+
+
+/* Contact us */
+
+.section__text{
+    font-family: 'Inter';
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+}
+
+.section--title.subtitle{
+    font-weight: 400;
+}
+.channels__item{
+    position: relative;
+    padding: 1em 0;
+    border-top: 1px solid var(--solid--light-grey);
+}
+.channels__header{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.channels__info{
+    font-weight: 400;
+    font-family: 'Inter';
+    margin:1em 0 0.5em 0;
+}
+.channels__text{
+    font-weight: 600;
+}
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.contact__form *::placeholder{
+    text-transform: uppercase;
+}
+textarea{
+    resize: vertical;
+}
+.contact__form .btn{
+    text-align: center;
+    display: block;
+}
+.info__text{
+    color: var(--solid--black);
+    text-decoration: underline;    
+}
+.info{
+    text-align: center;
+    display: block;
+}
+.info *
+{
+    vertical-align: middle;
+}
+.contact__layout{
+    display: grid;
+    padding: 1rem;
+    grid-template-areas: 
+    "contact-header"
+    "contact-channels"
+    "contact-form"
+    "contact-instagram";
+    gap: 2rem;
+}
+.contact__header{
+    grid-area: contact-header;
+}
+.contact-channels{
+    grid-area:contact-channels;
+}
+.contact-form{
+    grid-area: contact-form;
+}
+.daily-rituals{
+    grid-area: contact-instagram;
+}
+@media (min-width:984px) {
+    .contact__layout{
+        max-width: 1200px;
+        margin: auto;
+        grid-template-areas: "contact-header contact-header"
+        "contact-channels contact-form"
+        "contact-instagram contact-instagram";
+        grid-template-columns: 2fr 3fr;
+    }
+    .channels__item{
+        border: none;
+    }
+    .channels__list{
+        border-right: 1px solid var(--solid--light-grey);
+    }
+    .direct-channels .subtitle{
+        text-align: left;
     }
 }

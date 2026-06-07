@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terroir - Home</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="icon" type="image/svg+xml" href="/media/icons/icon__logo--no-text.svg">
 </head>
 
@@ -47,29 +47,71 @@
                 </a>
                 <a class="icon-btn" href="#" aria-label="Košík">
                     <svg class="icon" width="24" height="24">
-                        <use href="./media/icons/icon__cart.svg"></use>
+                        <use href="../media/icons/icon__cart.svg"></use>
                     </svg>
                 </a>
                 <a class="hamburger" href="#">
                     <svg class="icon" width="24" height="24" aria-label="Otevřít menu">
-                        <use href="./media/icons/icon__hamburger--closed.svg"></use>
+                        <use href="../media/icons/icon__hamburger--closed.svg"></use>
                     </svg>
                 </a>
             </div>
 
             <nav class="mobile-dropdown" id="mobile-menu">
                 <menu>
-                    <li><a href="#" aria-current="page">Home</a></li>
+                    <li><a href="#" >Home</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Brew Lab</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#" aria-current="page">Contact Us</a></li>
                 </menu>
             </nav>
         </div>
     </header>
+    <div class="contact__layout">
 
-
+    <section class="contact__header">
+            <h2 class="section--title">LET'S TALK</h2>
+            <p class="section__text">Máte otázku k původu našich zrn, správné teplotě vody pro váš čaj, nebo jen chcete sdílet svůj dnešní rituál? Jsme tu pro vás.</p>
+    </section>
+    <section class="direct-channels">
+            <h3 class="section--title subtitle">Direct Channels</h3>
+            <div class="channels__list">
+                <div class="channels__item">
+                    <h4 class="channels__header">Care & Orders</h4>
+                    <p class="channels__info">help@terroir.com</p>
+                    <p class="channels__text">Mon-Fri | 09:00 - 17:00</p>
+                </div>
+                                <div class="channels__item">
+                    <h4 class="channels__header">Wholesale & Craft Partners</h4>
+                    <p class="channels__info">b2b@terroir.com</p>
+                    <p class="channels__text">Pro kavárny, studia a lidi s vkusem.</p>
+                </div>
+                                <div class="channels__item">
+                    <h4 class="channels__header">Visit the lab</h4>
+                    <p class="channels__info">Factory St. 104, Prague</p>
+                    <p class="channels__text">Sat | 10:00 - 18:00</p>
+                </div>
+            </div>
+    </section>
+    <section class="contact-form">
+        <h3 class="section--title subtitle">Send a message</h3>
+        <form action="#" class="contact__form">
+            <input type="text" name="name" class="input input__text" placeholder="Name">
+            <input type="text" name="email" class="input input__text" placeholder="E-mail">
+            <input type="text" name="topic" class="input input__text" placeholder="I WANT TO TALK ABOUT...">
+            <textarea class="input__text" name="message" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn--dark">SEND TO THE LAB</button>
+        </form>
+    </section>
+    <section class="daily-rituals">
+        <h2 class="section--title subtitle">Daily Rituals On Instagram</h2>
+        <a class="info"  href="#">
+            <img src="../media/icons/icon__instagram.svg" width='20' height='20' alt="inst" srcset="">
+            <span class="info__text">@yourbrand.cz</span>
+        </a>
+    </section>
+    </div>
 
     
     <footer class="footer">
@@ -137,10 +179,10 @@
                 </div>
 
                 <div class="footer__newsletter">
-                    <form class="footer__form" action="#" method="POST">
-                        <input type="email" class="footer__input" placeholder="E-mail" required
+                    <form class="form" action="#" method="POST">
+                        <input type="email" class="input__text footer__input" placeholder="E-mail" required
                             aria-label="Vaše e-mailová adresa">
-                        <button type="submit" class="footer__btn">Odebírat</button>
+                        <button type="submit" class="btn footer__btn">Odebírat</button>
                     </form>
                 </div>
 
@@ -238,8 +280,7 @@
 
         </div>
     </footer>
-
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/contact_us.js"></script>
 </body>
 
 </html>
