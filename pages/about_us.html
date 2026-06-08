@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terroir - About us</title>
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" type="image/svg+xml" href="../media/icons/icon__logo--no-text.svg">
 </head>
 
@@ -78,9 +79,12 @@
                 a
                 každý lístek jasný původ a smysl.</p>
         </header>
-        <section class="numbers">
+        <div class="etika__title">
             <span class="subtitle--top">THE SUPPLY CHAIN</span>
             <h2 class="section--title">ETIKA V ČÍSLECH</h2>
+        </div>
+        <section class="numbers">
+            
             <div class="numbers__list">
                 <p class="numbers__item"><span class="number">70&nbsp;%</span> Zůstává u farmářů a kooperativ</p>
             </div>
@@ -109,20 +113,43 @@
             </table>
         </section>
         <section class="selection">
-            <span class="subtitle--top">THE SELECTION PROCESS</span>
-            <h2 class="section--title">JAK VYBÍRÁME</h2>
-            <div class="selection__list">
-                <span class="selection__numbering">01&nbsp;/&nbsp;03</span>
-                <h3 class="selection__title">Cesta</h3>
-                <span class="selection__subtitle">SOURCING · DIRECT TRADE</span>
-                <p class="selection__text">Necestujeme naslepo. Vyhledáváme mikro-loty a farmáře, pro které je kvalita
-                    důležitější než kvantita.</p>
-            </div>
+            <header class="selection__header">
+                <span class="subtitle--top">THE SELECTION PROCESS</span>
+                <h2 class="section--title">JAK VYBÍRÁME</h2>
+            </header>
+
+                <div class="selection__list">
+                    <div class="selection__item">
+                        <header>
+                            <span class="selection__numbering">01&nbsp;/&nbsp;03</span>
+                            <h3 class="selection__title">Cesta</h3>
+                            <span class="selection__subtitle">SOURCING · DIRECT TRADE</span>
+                        </header>
+                        <p class="selection__text">Necestujeme naslepo. Vyhledáváme mikro-loty a farmáře, pro které je kvalita
+                            důležitější než kvantita.</p>
+                        </div>                
+                <div class="selection__item">
+                    <header>
+                        <span class="selection__numbering">02&nbsp;/&nbsp;03</span>
+                        <h3 class="selection__title">Výběr</h3>
+                        <span class="selection__subtitle">CUPPING · TERROIR</span>
+                    </header>
+                    <p class="selection__text">Z deseti vzorků projde naším senzorickým sítem často jen jeden. Nehledáme průměr, hledáme nezaměnitelný charakter.</p>
+                </div>
+                <div class="selection__item">
+                    <header>
+                        <span class="selection__numbering">03&nbsp;/&nbsp;03</span>
+                        <h3 class="selection__title">Zpracování</h3>
+                        <span class="selection__subtitle">ROAST & STORAGE</span>
+                    </header>
+                    <p class="selection__text">Kávu pražíme světle, abychom nepřekryli její původ. Čaj uchováváme v přísných podmínkách, aby nestratil svou esenci.</p>
+                </div>
+        </div>
         </section>
     </div>
-
-
-
+    
+    
+    
     <footer class="footer">
         <div class="footer__content">
             <div class="footer__layout">
@@ -290,7 +317,9 @@
         </div>
     </footer>
 
-    <script src="../scripts/contact_us.js"></script>
+
+    
+    <script src="../scripts/about_us.js"></script>
 </body>
 
 </html>
