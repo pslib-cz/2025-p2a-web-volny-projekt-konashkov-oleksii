@@ -1,13 +1,29 @@
 const swiper = new Swiper('.swiper', { 
-  slidesPerView: 1.5, 
-  spaceBetween: 32, 
-  slidesPerGroupSkip: 1, 
-  slidesOffsetBefore: 16, 
-  initialSlide: 1, 
-  centeredSlides: true, 
-  pagination: { 
+    slidesPerView: 1.25, 
+    spaceBetween: 16, 
+    initialSlide: 1, 
+    centeredSlides: true,
+    slideToClickedSlide: true,
+    pagination: { 
     el: ".swiper-pagination",
-    clickable: true,} 
+    clickable: true,},
+    breakpoints:{
+    400:{
+        slidesPerView: 1.5,
+        spaceBetween: 32,
+    },
+    800:{
+        slidesPerView: 2.25,
+        spaceBetween: 32,
+    },
+    1024:{
+        enabled: false,
+        slidesPerView: 3.25,
+        centeredSlides: true,
+    }
+    }
+
+
 });
 
 document.addEventListener('DOMContentLoaded', () => {

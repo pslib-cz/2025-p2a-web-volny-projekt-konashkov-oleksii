@@ -160,6 +160,7 @@
     color: var(--solid--white);
     padding: 5rem 1.5rem 10rem 1.5rem;
     background-size: cover;
+    margin-bottom: 2rem;
     /* background-color: var(--solid--black); */
 }
 .hero__content{
@@ -222,80 +223,56 @@ h1.heading {
 }
 
 
-
-
 .swiper__tea{
-    background-color: #C9B9D3;
+    background-color: #BDAFBF;
+    background-image: url(../media/fast-choise/tea_pokus.png);
 }
 .swiper__craft{
-    background-color: #F8B990;
+    background-color: #EEA47F;
+    background-image: url(../media/fast-choise/craft_pokus.png);
 }
 .swiper__latte{
-    background-color: #BDDECB;
-}
-.swiper-slide{
-    text-align: right;
-}
-.swiper-slide p{
-    font-size: 1rem;
-    font-weight: 400;
+    background-color: #ACC7B7;
+    background-image: url(../media/fast-choise/latte_pokus.png);
 }
 
 
 
 .swiper-slide {
-    min-height: 300px;
+    display: block;
+    text-align: right;
+    min-height: 265px;
+    background-size: 95%;
     color: var(--solid--white);
     text-align: right;
     overflow: hidden;
-    padding: 1rem;
-}
-.swiper__craft{
-    background-color: #f3a683; 
-    object-fit: cover;
-    background-image: url(../media/fast-choise/craft.png);
-}
-
-.swiper__craft picture {
-  position: absolute;
-  left: -15%;
-  top: 50%;
-  transform: translateY(-50%); 
-  
-  z-index: 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:-25px ;
 }
 
-.swiper__craft img {
-  height: 100%;
-  object-fit: cover;
-}
-
-
-.swiper__craft h3, 
-.swiper__craft p {
-font-size: 1rem;
-  position: relative;
-  z-index: 1;
-}
-.swiper__craft p.fast-choise__text {
+.swiper-slide p.fast-choise__text {
     font-family: 'Inter';
+    padding-left: 8rem;
+    max-width: 150px;
+    margin-left: auto;
 }
 
 
 .fast-choise__title {
-  font-size: 28px;
+    font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 0.5em;
 }
 
 .fast-choise__subtitle {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
-  letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 32px; /* Creates the visual gap before the paragraph */
+  margin-bottom:0.5em;
 }
 
 
@@ -392,7 +369,7 @@ font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
-    margin: 1rem auto;
+    margin: 2rem auto 1rem;
 }
 .hodnoty__wrap{
     display: flex;
@@ -465,6 +442,7 @@ font-size: 1rem;
     background-color: var(--solid--dark-gray);
     color: var(--solid--white);
     padding: 0.5em 1.5em;
+    margin-top: 2rem;
 }
 
 .footer__layout {
