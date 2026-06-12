@@ -13,7 +13,7 @@
 --swiper-theme-color: var(var(--solid--light-grey));
 }
 
-*{
+html{
     font-family: 'Lexend';
 }
 
