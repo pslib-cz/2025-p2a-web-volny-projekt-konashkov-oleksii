@@ -236,7 +236,12 @@ h1.heading {
     background-image: url(../media/fast-choise/latte_pokus.png);
 }
 
-
+.about__body,
+.hero__content,
+.fast-choise{
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
 .swiper-slide {
     display: block;
